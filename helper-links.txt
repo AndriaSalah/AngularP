@@ -1,0 +1,14 @@
+css game
+https://flexboxfroggy.com/ 
+
+free icons
+https://www.flaticon.com/
+
+free fonts
+https://fontawesome.com/
+
+free images
+https://undraw.co/illustrations
+
+cdn links
+cdnjs.com
