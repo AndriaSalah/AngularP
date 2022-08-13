@@ -43,7 +43,7 @@ body {
 nav{
     background-color: #6f6f6f;
     width: 98.2%;
-    //padding: 1px;
+    padding: 1px;
     border-radius: 10px;
     
 }
@@ -56,28 +56,23 @@ nav ul{
     align-content: space-between;
     justify-content: space-evenly ;
 }
-nav ul li{
-     
-    justify-content: space-evenly;
-    align-content: space-between;
-    color: whitesmoke;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 50px;
-    padding: 5px;
 
-}
 
-nav ul li:hover{
+a:hover{
     background-color: #892be251;
     border-radius: 10px;
 }
 
 a{
-    /* justify-content: center;
-    align-content: center; */
+    justify-content: space-evenly;
+    align-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100px;
+    padding: 5px;
     text-decoration: none;
     color: whitesmoke;
     cursor: pointer;
+   
    
 }
 .main {
@@ -129,4 +124,10 @@ a{
 }
 .solid1{
     background-color: #2b71e2;
+}
+
+.linear div div{
+    letter-spacing: 0;
+    display: flex;
+    flex-direction: row;
 }
