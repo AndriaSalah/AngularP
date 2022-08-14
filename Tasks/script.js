@@ -1,3 +1,26 @@
+//lecture tasks
+let salary = prompt('please enter your salary')
+
+let taxes = 0.1 * salary
+
+console.log(salary - taxes)
+
+// //=============================================================================
+
+let x = parseInt(prompt('please enter the first number'))
+let y = parseInt(prompt('please enter the second number'))
+
+console.log('sum is ' + (x+y))
+console.log('subtraction is ' + (x-y))
+console.log('multiplication is ' + (x*y))
+if(y != 0){
+console.log('Division is ' + (x/y))
+}
+else {
+    console.log('cant divide by zero')
+}
+//=================================================================================
+// // // sheet tasks
 // // //problem 1 even/odd check
 let x = Number(prompt('enter a number to check if it;s even or odd'));
 if(x%2 == 0) console.log('even')
