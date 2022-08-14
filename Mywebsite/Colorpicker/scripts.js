@@ -1,14 +1,3 @@
-// let color1 = document.getElementById("color1")
-// let color2 = document.getElementById("color2")
-// let body = document.querySelector("body")
-
-// function changeGradient(){
-// body.style.background= `linear-gradient(to right , ${color1.value},${color2.value}`
-// }
-
-// color1.addEventListener('change',changeGradient)
-// color2.addEventListener('change',changeGradient)
-
 let color = document.querySelector('#color')
 let color1 = document.querySelector('#color1')
 let color2 = document.querySelector('#color2')
