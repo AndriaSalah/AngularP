@@ -1,17 +1,19 @@
 body {
-    /* display: flex; */
+    
     height: 100%;
-    width: 100%;
-    background-color: #2f2f2f;
-    align-content: center;
-    justify-content: center;
+    width: 98%;
+    background-color: #000000;
+    background-image: url(../Aboutme/pictures/background2.jpg);
+    background-repeat: no-repeat;
 }
 nav{
-    background-color: #6f6f6f;
-    width: 98.2%;
+    background-color: #0000007a;
+    width: 100%;
     padding: 1px;
     border-radius: 10px;
-    
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav ul{
@@ -21,18 +23,23 @@ nav ul{
     flex-flow: row;
     align-content: space-between;
     justify-content: space-evenly ;
+    margin: 10px 10px;
 }
 
 
 a:hover{
-    background-color: #892be251;
+    background-color: #dbdbdb51;
+    /* color: #000000; */
+    border: #ffffff;
+    border-width: 10px;
     border-radius: 10px;
 }
 
 a{
+    transition-duration: 0.2s;
     justify-content: space-evenly;
     align-content: space-between;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Inter', sans-serif;
     font-weight: 100px;
     padding: 5px;
     text-decoration: none;
@@ -41,24 +48,28 @@ a{
    
    
 }
+#home{
+    margin-left: 1rem;
+    align-self: center;
+}
 
 .container{
     display: flex;
     height:100% ;
     width: 100%;
     padding: 2rem;
-    margin-top: 3rem;
-    background-color: inherit;
+    margin-top: 10%;
+    background-color: transparent;
     align-content: center;
     justify-content: center;
     
 }
 
 .main{
-    background-color: #c6b2d98f ;
+    background-color: #e0e0e094 ;
     display: flex;
     flex-flow: column wrap;
-    width: 30%;
+    width: 20%;
     height: min-content;
     border-radius: 2rem;
     border: none;
@@ -67,11 +78,12 @@ a{
     margin-top: 2rem;
     align-content: center;
     justify-content: space-center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100px;
     color: #fafafa90;
 }
 #calculate{
+    transition-duration: 0.2s ;
     justify-self: center;
     align-self: center;
     margin : 1rem;
@@ -84,6 +96,7 @@ a{
     border-radius: 10px;
     color: white;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 
 }
 #calculate:hover{
@@ -91,7 +104,8 @@ a{
     color: black;
 }
 
-#textfield{
+#formula{
+    transition-duration: 0.2s;
     justify-self: center;
     align-self: center;
     margin : 1rem;
@@ -99,12 +113,19 @@ a{
     background-color: transparent;
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 4px;
-    color: black;
+    color: rgb(0, 0, 0);
     cursor: pointer; 
-}
+    
+} 
+
+#formula:focus{
+    outline: none;
+    border-color: #000000
+
+}  
 
 p{
     color: white;
@@ -112,4 +133,8 @@ p{
 
 #disabled:hover{
     cursor: not-allowed;
+}
+
+#paragraph{
+    font-size: xx-large;
 }

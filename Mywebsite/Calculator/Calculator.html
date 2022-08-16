@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="../Calculator/styles.css">
 </head>
 <body>
     <nav class="navigation">
+        <a id='home'href="../Aboutme/aboutme.html">Home</a>
         <ul>
             <a id="disabled" href="#">Calculator</a>
             <a href="../Colorpicker/Colorpicker.html">Color Picker</a>
@@ -16,8 +18,8 @@
     </nav>
     <div class="container">
         <div class="main">
-            <p id="paragraph" style="letter-spacing:5px ;">enter your problem</p>
-            <input type="text" placeholder=".........." id="formula">
+            <p id="paragraph" style="letter-spacing:1px ; text-align: center;">enter your problem</p>
+            <input type="text" id="formula">
             <input onclick="calculate()" id="calculate" type="button" value="calculate">
             <p id="answer"></p>
         </div>
