@@ -1,0 +1,13 @@
+question 4 
+1)--> true
+2)--> true
+3)--> false js doesnt have classes
+4)--> false u can have normal methods (concrete) and abstract methods
+5)--> true 
+6)--> false can implement many interfaces
+7)--> true
+8)--> false abstraction 
+9)--> true
+10)-> true
+
+
